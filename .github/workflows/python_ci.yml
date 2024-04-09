@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.x] # Replace '3.x' with the specific Python version you used in development
+        python-version: [3.x] 
 
     steps:
     - uses: actions/checkout@v2
